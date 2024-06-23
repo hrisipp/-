@@ -3,7 +3,6 @@ def get_matrix(n, m, value):
     row = []
     for i in range(n):
         matrix.append(row)
-    # row = []
     for j in range(m):
         row.append(value)
     return (matrix)
